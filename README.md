@@ -10,7 +10,7 @@ Project structure as below:
 - tests / sample.test.js : non-BDD Puppeteer test, which is used for initial test setup and debugging
 - target: BDD test results report saved in this directory
 
-`zsh
+```
 .
 ├── README.md
 ├── config.selectors
@@ -33,7 +33,7 @@ Project structure as below:
 │   └── cucumber_report.json
 └── tests
     └── sample.test.js
-`
+```
 
 ## Install
 `npm install`
