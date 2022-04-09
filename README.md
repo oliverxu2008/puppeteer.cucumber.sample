@@ -42,7 +42,7 @@ Project structure as below:
 `npm run test`
 
 ## how to run the BDD cucumber test and report
-`
+```
 npm run test:bdd
 npm run test:report
-`
+```
