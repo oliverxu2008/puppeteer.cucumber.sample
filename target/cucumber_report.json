@@ -1,0 +1,386 @@
+[
+  {
+    "description": "I can access the loan calculator webpage\nI can set my income and expenses\nI can get a quick estimate on how much I am able to borrow\nI can click a button to start over",
+    "keyword": "Feature",
+    "name": "Estimate how much I could borrow",
+    "line": 1,
+    "id": "estimate-how-much-i-could-borrow",
+    "tags": [],
+    "uri": "features\\sample.feature",
+    "elements": [
+      {
+        "id": "estimate-how-much-i-could-borrow;enter-existing-financial-conditions-to-calculate-the-loan-estimate",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Enter existing financial conditions to calculate the loan estimate",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the loan calculator webpage",
+            "match": {
+              "location": "features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I select home loan Application Type as single",
+            "match": {
+              "location": "features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I select number of dependants as 0",
+            "match": {
+              "location": "features\\support\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select home loan borrow type as selfLive",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I set earning \"annual income\" as 80000",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I set earning \"annual other income\" as 10000",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I set expense \"monthly living expenses\" as 500",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I set expense \"current home loan monthly replayments\" as 0",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I set expense \"other loan monthly repayments\" as 100",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I set expense \"other monthly commitments\" as 0",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I set expense \"total credit card limits\" as 10000",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I click the button \"Work out how much I could borrow\"",
+            "match": {
+              "location": "features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the loan estimate result as $542,000",
+            "match": {
+              "location": "features\\support\\steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I click the button \"Start over\"",
+            "match": {
+              "location": "features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I can see the page has been reset",
+            "match": {
+              "location": "features\\support\\steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3588000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "estimate-how-much-i-could-borrow;click-start-over-to-reset-the-page",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Click Start-over to reset the page",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the loan calculator webpage",
+            "match": {
+              "location": "features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I select home loan Application Type as single",
+            "match": {
+              "location": "features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I select number of dependants as 0",
+            "match": {
+              "location": "features\\support\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I select home loan borrow type as selfLive",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I set earning \"annual income\" as 80000",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I set earning \"annual other income\" as 10000",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I click the button \"Start over\"",
+            "match": {
+              "location": "features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 798000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I can see the page has been reset",
+            "match": {
+              "location": "features\\support\\steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3579000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
